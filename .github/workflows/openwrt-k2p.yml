@@ -14,7 +14,7 @@ on:
     branches: 
       - master
   schedule:
-      - cron: 0 0 ? * MON
+      - cron: 0 20 ? * FRI
   # release:
   #   types: [published]
 
